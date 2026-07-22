@@ -30,6 +30,24 @@
         .col3{
             background-color: #e6e6e6;
         }
+        .tab3{
+           text-align: center;
+        }
+        .one{
+            background-color:rgb(200, 142, 192);
+        }
+        .two{
+            background-color: rgb(130, 105, 130);
+        }
+        .three{
+            background-color: rgb(176, 171, 176);
+        }
+        .four{
+            background-color: rgb(214, 214, 214);
+        }
+        .five{
+            background-color: rgb(130, 133, 90);
+        }
        
     </style>
 </head>
@@ -106,6 +124,42 @@
             <td>987-654-3210</td>
 
         </tr>
+        
+        <table class="tab3">
+            <h1 >3.Combined Rowspan and Colspan Example</h1>
+            <tr class="one">
+                <td>Department</td>
+                <td colspan="3">Employees</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="4" class="two">IT Department</td>
+                <td class="three">ID</td>
+                <td class="three">Name</td>
+                <td class="three">Role</td>
+            </tr>
+            <tr class="four">
+                <td>1</td>
+                <td>David</td>
+                <td>Developer</td></tr>
+            <tr class="four">
+                
+                <td>2</td>
+                <td>Emma</td>
+                <td>Tester</td>
+            </tr>
+            <tr class="four">
+                
+                <td>3</td>
+                <td>Chris</td>
+                <td>Analyst</td>
+            </tr>
+            <tr class="five">
+                <td>Total Employees</td>
+                <td colspan="3">3</td>
+                
+            </tr>
+        </table>
         </tbody>
     </table>
 </body>
